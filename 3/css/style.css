@@ -1,0 +1,264 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-extra-dark: 283136;
+  --basic-dark: #444444;
+  --basic-neutral: #666666;
+  --basic-extra-light: EEEEEE;
+  --basic-white: #ffffff;
+
+  --special1: 00CA74;
+  --special2: 00BC6C;
+  --special3: 01A25E;
+  --special4: 00BC6C;
+  --special5: FB565A;
+  --special6: E74246;
+  --special7: D7373B;
+  --special8: EFC849;
+  --special9: EAB534;
+  --special10:E5A722;
+}
+
+/* Global */
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 18px,22px,24px,30px,36px,45px,55px;
+  font-weight:700 400;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("../img/bg.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+/* feature-item*/
+h3 {
+  font-size: 24px;
+  line-height: normal;
+}
+
+/* Main header */
+
+.inner-page .main-header {
+  background-color: var(--basic-black);
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+.main-navigation-wrapper {
+  background-color: var(--basic-white);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+/* User navigation */
+
+
+.site-navigation a,
+.user-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: var(--special5);
+}
+
+/* Features */
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/* Button */
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-);
+  border: none;
+}
+
+.inner-page {
+  color: var(--basic-black);
+  background-color: var(--basic-extra-light);
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.page-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: var(--basic-black);
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  text-decoration: underline;
+}
+
+.breadcrumbs-current {
+  color: var(--basic-dark);
+}
+
+/* Filters */
+
+.filter legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filter ul {
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter-input-checkbox:hover + label,
+.filter-input-checkbox:focus + label {
+  color: var(--special);
+}
+
+/* Catalog */
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  background-color: var(--basic-extra-light);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.catalog-item a {
+  color: var(--basic-black);
+}
+
+.catalog-item h3 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.catalog-category {
+  text-transform: none;
+}
+
+.catalog-item-price b {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  background-color: var(--basic-neutral);
+}
+
+.catalog-item-price .button {
+  line-height: 20px;
+  color: var(--basic-white);
+}
+
+/* Pagination */
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: var(--basic-white);
+  background-color: var(--basic-black);
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: var(--special);
+}
+
+.pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+/* Contacts */
+
+.contacts-phone {
+  color: inherit;
+}
+
+/* Appointment */
+
+.appointment-item input {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid var(--basic-black);
+}
+
+.appointment-item input:focus {
+  border-color: var(--special);
+}
+
+.footer-contacts a {
+  color: var(--basic-white);
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+/* Social button */
+
+.social-button {
+  color: basic-neutral;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--basic-white);
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: var(--basic-white);
+  background-color: var(--basic-black);
+}
